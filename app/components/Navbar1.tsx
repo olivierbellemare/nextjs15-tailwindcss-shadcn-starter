@@ -4,6 +4,7 @@ import { usePathname } from 'next/navigation';
 
 const Navbar = () => {
   const pathname = usePathname();
+  console.log(pathname);
 
   return (
     <nav className="bg-White30 backdrop-blur-xs p-4 gap-4 flex">

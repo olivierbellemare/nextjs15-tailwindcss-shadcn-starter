@@ -1,19 +1,11 @@
 import NextLogo from "@components/NextLogo";
 import MyCard1 from "@components/MyCard1";
 import MyCard2 from "@components/Mycard2";
-import Link from "@node_modules/next/link";
+import Link from "next/link";
 import { Button } from "@*/components/ui/button"
 import { Input } from "@*/components/ui/input"
 import { Label } from "@*/components/ui/label"
 import { Card, CardAction, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@*/components/ui/card"
-  
-  
-  
-  
-  
- 
-  
-
 
 export default function Home() {
   return (

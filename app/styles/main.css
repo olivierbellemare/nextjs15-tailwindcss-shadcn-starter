@@ -1,0 +1,46 @@
+@import "./home.css";
+@import "./about.css";
+@import "./contact.css";
+
+html {  
+    @apply w-full h-full;
+}
+
+body {
+  @apply lato text-mainText w-screen h-screen bg-linear-90 from-gradient-0 to-gradient-100;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  p {
+    @apply text-mainText;
+  }
+
+  a {
+    @apply text-black30
+  }
+
+  h1 {
+    @apply eb-garamond text-8xl leading-normal text-cta;
+  }
+  h2 {
+    @apply eb-garamond text-5xl leading-normal text-title;
+  }
+  h3 {
+    @apply eb-garamond text-3xl leading-normal text-subTitle;
+  }
+}
+
+@utility lato {
+  @apply font-lato font-[400] not-italic;
+}
+
+@utility eb-garamond {
+  @apply font-EB-Garamond font-[700] not-italic;
+  font-optical-sizing: auto;  
+}
